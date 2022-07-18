@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-color: black;
+  }
+  /* .body_container{
+    width:100%;
+    height:100%;} */
+    .c_Foto {
+      width: 20rem;
+      height: 22rem;
+      margin: auto;
+      margin-top: 5rem;
+    }
+    .fotoPerfil {
+      width: 15rem;
+      height: 15rem;
+      margin: auto;
+      background-color:white;
+      border-radius:25px;;
+      
+    }
+    
+    #titulo {
+      position: relative;
+      margin-top: 4rem;
+      margin-left: 2.8rem;
+    }
+    
+    #estudiante {
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      font-size: 1.5rem;
+      margin-left: 18rem;
+      margin-top:2.5rem;
+    }
+    .c_contacto{
+      width:30%;
+      height:15%;
+      margin:auto;
+      margin-top:1rem;
+    }
+    .c_contacto h3{
+      position: relative;
+      text-align: center;
+    }
+   .redes{
+    margin:auto;
+    width:60%;
+    display:flex;
+    justify-content: space-around;
+   }
+    i{
+      font-size:2.4rem;
+      position:relative;
+    }
+    i:hover{
+      bottom:0.2rem;
+    }
+    
+    .divBodyOscuro {
+      height: 100%;
+      width: 50%;
+      color:#ddff8f;
+      position:relative;
+    }
+
+    /*--------------- inicio div experiencia ---------------*/
+    .divBodyClaro {
+      height: 100%;
+      width: 50%;
+      background-color:#ddff8f;
+      position:relative;
+      z-index: 1;
+      border-radius: 25px 0px 0px 25px;
+    }
+    .c_sobremi{
+      width:90%;
+      height:85%;
+      margin: 4rem 0rem 0rem 3rem;
+    }
+    hr{
+      border: black 1px solid;
+      width:100%;
+    }
+    .educacion{
+      position:relative;
+      display:flex;
+     width:100%;
+     justify-content:space-around;
+    }
+    #año{
+      font-size: 1.5rem;
+      position:relative;
+      margin-top:2rem;
+      font-weight:bold;
+    }
+    .c_texto{
+      position:relative;
+      width:85%;
+    }
+    .proyectos{
+      text-align:center;
+      margin-left:12rem;
+      width:13rem;
+      height:3rem;
+      background-color:black;
+      color:white;
+      transition-duration: 0.7s;
+    }
+    .proyectos:hover{
+      background-color: #ddff8f;
+      color:black;
+    }
