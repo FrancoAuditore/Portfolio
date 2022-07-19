@@ -14,37 +14,40 @@ html {
     display: flex;
     background-color: black;
   }
-  /* .body_container{
-    width:100%;
-    height:100%;} */
     .c_Foto {
       width: 20rem;
-      height: 22rem;
+      height: 25rem;
       margin: auto;
+      padding: auto;
       margin-top: 5rem;
+      display:flex;
+      flex-direction: column;
     }
     .fotoPerfil {
       width: 15rem;
       height: 15rem;
       margin: auto;
       background-color:white;
-      border-radius:25px;;
+      border-radius:25px;
       
+    }
+    #foto {
+       width:100%;
+       height:100%;
+       border-radius:25px;
     }
     
     #titulo {
       position: relative;
-      margin-top: 4rem;
+      margin-top: 2rem;
       margin-left: 2.8rem;
     }
     
     #estudiante {
-      display: inline-block;
-      position: relative;
+      position:relative;
       text-align: center;
       font-size: 1.5rem;
-      margin-left: 18rem;
-      margin-top:2.5rem;
+      justify-content: center;
     }
     .c_contacto{
       width:30%;
@@ -58,9 +61,13 @@ html {
     }
    .redes{
     margin:auto;
-    width:60%;
+    width:80%;
     display:flex;
     justify-content: space-around;
+   }
+   .redes a{
+    text-decoration: none;
+    color:#ddff8f;
    }
     i{
       font-size:2.4rem;
@@ -123,4 +130,8 @@ html {
     .proyectos:hover{
       background-color: #ddff8f;
       color:black;
+    }
+    .lenguajes a{
+      text-decoration: none;
+      color:white;
     }
