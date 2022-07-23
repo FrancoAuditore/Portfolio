@@ -3,7 +3,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 62.5;
+    font-size: 62.5%;
   }
   
   body {
@@ -15,66 +15,68 @@ html {
     background-color: black;
   }
     .c_Foto {
-      width: 20rem;
-      height: 25rem;
+      width: 40rem;
+      height: 50rem;
       margin: auto;
       padding: auto;
-      margin-top: 5rem;
+      margin-top: 17rem;
       display:flex;
       flex-direction: column;
     }
     .fotoPerfil {
-      width: 15rem;
-      height: 15rem;
+      width: 30rem;
+      height: 30rem;
       margin: auto;
       background-color:white;
       border-radius:25px;
       
     }
     #foto {
-       width:100%;
-       height:100%;
-       border-radius:25px;
+      width:100%;
+      height:100%;
+      border-radius:25px;
     }
     
     #titulo {
       position: relative;
+      margin:auto; 
       margin-top: 2rem;
-      margin-left: 2.8rem;
+      font-size: 4rem;
     }
     
     #estudiante {
       position:relative;
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 3rem;
       justify-content: center;
     }
     .c_contacto{
       width:30%;
       height:15%;
       margin:auto;
-      margin-top:1rem;
+      margin-top:0rem;
     }
     .c_contacto h3{
       position: relative;
       text-align: center;
+      font-size:4rem;
     }
-   .redes{
+  .redes{
     margin:auto;
     width:80%;
     display:flex;
-    justify-content: space-around;
-   }
-   .redes a{
+    justify-content: space-evenly;
+}
+  .redes a{
     text-decoration: none;
     color:#ddff8f;
-   }
+}
     i{
-      font-size:2.4rem;
+      font-size:4.8rem;
       position:relative;
     }
     i:hover{
-      bottom:0.2rem;
+      bottom:0.4rem;
     }
     
     .divBodyOscuro {
@@ -84,7 +86,7 @@ html {
       position:relative;
     }
 
-    /*--------------- inicio div experiencia ---------------*/
+    /*--------------- inicio div "Claro" ---------------*/
     .divBodyClaro {
       height: 100%;
       width: 50%;
@@ -92,11 +94,12 @@ html {
       position:relative;
       z-index: 1;
       border-radius: 25px 0px 0px 25px;
+      font-size: 2.3rem;
     }
     .c_sobremi{
       width:90%;
       height:85%;
-      margin: 4rem 0rem 0rem 3rem;
+      margin:auto;
     }
     hr{
       border: black 1px solid;
@@ -105,13 +108,13 @@ html {
     .educacion{
       position:relative;
       display:flex;
-     width:100%;
-     justify-content:space-around;
+      width:100%;
+    justify-content:space-around;
     }
     #año{
-      font-size: 1.5rem;
+      font-size: 3rem;
       position:relative;
-      margin-top:2rem;
+      margin-top:4rem;
       font-weight:bold;
     }
     .c_texto{
@@ -119,19 +122,19 @@ html {
       width:85%;
     }
     .proyectos{
-      text-align:center;
-      margin-left:12rem;
-      width:13rem;
-      height:3rem;
+      position:relative;
+      width:26rem;
+      height:6rem;
       background-color:black;
       color:white;
       transition-duration: 0.7s;
+      left:35%;
+      top:10%;
     }
     .proyectos:hover{
       background-color: #ddff8f;
-      color:black;
     }
-    .lenguajes a{
+    .proyectos a{
       text-decoration: none;
-      color:white;
+      color:gray;
     }
